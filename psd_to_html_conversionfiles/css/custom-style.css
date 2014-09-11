@@ -1,0 +1,469 @@
+body,
+html{
+	height:100%;
+}
+
+body{
+		background:#f4f4f4;
+		color:#838383
+}
+a{
+	color:#838383
+}
+	.navbar-inverse .navbar-green-bar{
+		background:transparent url(../img/header-nav.png) repeat-x top;
+		border:none;
+		height:48px;
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+	}
+	
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+
+.fixed-fixed {
+    margin: 0 0 0 240px;
+}
+
+
+.nav-pills > li > a{
+	color:#60a1d4;
+	padding-top:2px;
+	padding-bottom:2px;
+	margin-top:0;
+	font-size:12px;
+	line-height:20px
+}
+
+.left-column-seperator{
+	background:url(../img/left-column-seperator.gif) repeat-y;
+	padding-top:60px;
+}
+.left-column-seperator .nav-list{
+	
+	overflow:hidden;
+
+}
+.left-column-seperator .nav-list li{
+	background:url(../img/left-border-top.gif) repeat-x top ;
+	position:relative;
+	height:40px;
+}
+.left-column-seperator .nav-list li:last-child{
+	height:42px;
+}
+.left-column-seperator .nav-list li:hover,
+.left-column-seperator .nav-list li.active{
+	background:none;
+}
+.row-fluid > .left-navigation-width{
+	width:214px;
+	float:left;
+	margin-left:24px;
+	position: relative;
+    top: 0;
+    left:auto;
+	
+}
+.left-navigation-width .nav-list > li > a{
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+	width:100%;
+	height:38px;
+	line-height:37px;
+}
+
+.left-navigation-width .nav-list > li > a i{
+	background:url(../img/nav-icons.png) no-repeat;
+	width:22px;
+	height:24px;
+	margin-top:0;
+	margin-right:16px;
+}
+.left-navigation-width .nav-list > li > a i.icon-profile{
+	background:url(../img/nav-icons.png) no-repeat 0 -35px;
+}
+.left-navigation-width .nav-list > li > a i.icon-following{
+	background:url(../img/nav-icons.png) no-repeat 0 -70px;
+}
+.left-navigation-width .nav-list > li > a i.icon-share{
+	background:url(../img/nav-icons.png) no-repeat 0 -110px;
+}
+.left-navigation-width .nav-list > li > a i.icon-manage-calendar{
+	background:url(../img/nav-icons.png) no-repeat 0 -144px;
+}
+.left-navigation-width .nav-list > li > a i.icon-promote{
+	background:url(../img/nav-icons.png) no-repeat 0 -182px;
+}
+.left-navigation-width .nav-list > li > a i.icon-settings{
+	background:url(../img/nav-icons.png) no-repeat 0 -218px;
+}
+
+.left-navigation-width .nav > li > a:hover,.left-navigation-width  .nav > li > a:focus,
+.left-navigation-width .nav-list > .active > a, 
+.left-navigation-width .nav-list > .active > a:hover, 
+.left-navigation-width .nav-list > .active > a:focus{
+	background:url(../img/left-nav.png) no-repeat 0px 4px;
+	color:#fff;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+	position:relative;
+	z-index:1;
+	line-height:38px
+}
+
+.left-navigation-width .nav > li > a:hover i,
+.left-navigation-width  .nav > li > a:focus i,
+.left-navigation-width .nav-list > .active > a i, 
+.left-navigation-width .nav-list > .active > a:hover i, 
+.left-navigation-width .nav-list > .active > a:focus i{
+	background:url(../img/nav-icons.png) no-repeat -35px 0;
+}
+.left-navigation-width .nav > li > a:hover i.icon-profile,
+.left-navigation-width  .nav > li > a:focus i.icon-profile,
+.left-navigation-width .nav-list > .active > a i.icon-profile, 
+.left-navigation-width .nav-list > .active > a:hover i.icon-profile, 
+.left-navigation-width .nav-list > .active > a:focus i.icon-profile{
+	background:url(../img/nav-icons.png) no-repeat -35px -35px;
+}
+.left-navigation-width .nav > li > a:hover i.icon-following,
+.left-navigation-width  .nav > li > a:focus i.icon-following,
+.left-navigation-width .nav-list > .active > a i.icon-following, 
+.left-navigation-width .nav-list > .active > a:hover i.icon-following, 
+.left-navigation-width .nav-list > .active > a:focus i.icon-following{
+	background:url(../img/nav-icons.png) no-repeat -35px -70px;
+}
+
+.left-navigation-width .nav > li > a:hover i.icon-share,
+.left-navigation-width  .nav > li > a:focus i.icon-share,
+.left-navigation-width .nav-list > .active > a i.icon-share, 
+.left-navigation-width .nav-list > .active > a:hover i.icon-share, 
+.left-navigation-width .nav-list > .active > a:focus i.icon-share{
+	background:url(../img/nav-icons.png) no-repeat -35px -110px;
+}
+
+.left-navigation-width .nav > li > a:hover i.icon-manage-calendar,
+.left-navigation-width  .nav > li > a:focus i.icon-manage-calendar,
+.left-navigation-width .nav-list > .active > a i.icon-manage-calendar, 
+.left-navigation-width .nav-list > .active > a:hover i.icon-manage-calendar, 
+.left-navigation-width .nav-list > .active > a:focus i.icon-manage-calendar{
+	background:url(../img/nav-icons.png) no-repeat -35px -144px;
+}
+
+.left-navigation-width .nav > li > a:hover i.icon-promote,
+.left-navigation-width  .nav > li > a:focus i.icon-promote,
+.left-navigation-width .nav-list > .active > a i.icon-promote, 
+.left-navigation-width .nav-list > .active > a:hover i.icon-promote, 
+.left-navigation-width .nav-list > .active > a:focus i.icon-promote{
+	background:url(../img/nav-icons.png) no-repeat -35px -182px;
+}
+
+.left-navigation-width .nav > li > a:hover i.icon-settings,
+.left-navigation-width  .nav > li > a:focus i.icon-settings,
+.left-navigation-width .nav-list > .active > a i.icon-settings, 
+.left-navigation-width .nav-list > .active > a:hover i.icon-settings, 
+.left-navigation-width .nav-list > .active > a:focus i.icon-settings{
+	background:url(../img/nav-icons.png) no-repeat -38px -219px;
+}
+
+.info-block{
+	background:url(../img/left-border-top.gif) repeat-x bottom ;
+}
+.info-block-heading h2{
+	text-indent:25px;
+	margin-bottom:0
+}
+
+.row-fluid .data-table-remove-marg{
+	margin-left:0;
+	padding-top:40px
+}
+
+.row-fluid .form-wrapper{
+	margin-left:0;
+	padding-top:0
+}
+
+.container-wrapper,
+.right-column,
+.left-column{
+	height:100%;
+}
+
+.row-fluid .right-column{
+	padding-left:20px;
+	float:right;
+}
+
+.right-column h3{
+	font-size:20px;
+}
+
+.image-block{
+	width:52px; 
+	height:52px; 
+	float:left; 
+	margin-left:20px;
+	background:url(../img/avatar-bg.png) no-repeat;
+}
+
+/*@ Change Password
+--------------------------
+*/
+.row-fluid .change-password-wrapper{
+	margin-left:-16px;
+	background:#fff;
+	width:103.4%; 
+	padding-left:30px; 
+	padding-top:30px; 
+	padding-bottom:0px; 
+	border-top:1px solid #cccbcb;
+	border-bottom:1px solid #cccbcb
+}
+
+.change-photo{
+	margin-left:10px;
+}
+
+.avatar-photo{
+	width:62px;
+	height:62px;
+	background:url(../img/avatar-bg.png) no-repeat;
+	margin:0 auto 20px;
+	position:relative
+}
+
+.avatar-photo img{
+	margin:4px 4px 4px 5px
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a{
+	background:#f89407;
+}
+
+.row-fluid .error-message{
+	margin-left:0; 
+	margin-top:15px; 
+	font-size:11px
+}
+
+.update-profile{
+	margin:20px 0 0 20px;
+}
+
+.change-password{
+	width:200px;
+	height:200px;
+
+	margin-left:47px;
+}
+
+.change-password-profile{
+	width:150px;
+	height:180px;
+		padding-top:20px;
+    background:#c7c7c7;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+
+/*@ Action Links
+--------------------------
+*/
+
+.action li.seperator{
+	line-height:18px;
+}
+.action{
+	margin-bottom:0
+}
+
+/*@ Followers Green Links
+--------------------------
+*/
+.followers-green-links{
+	color:#78af4b;
+}
+
+.followers-blue-links{
+	color:#60a1d4;
+}
+
+.btn-orange{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	background: -moz-linear-gradient(
+		top,
+		#f89407 0%,
+		#f89407);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#f89407),
+		to(#f89407));
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #fb8241;
+	-moz-box-shadow:
+		0px 1px 1px rgba(000,000,000,0.7),
+		inset 0px 1px 2px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 1px rgba(000,000,000,0.7),
+		inset 0px 1px 2px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 1px rgba(000,000,000,0.7),
+		inset 0px 1px 2px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0),
+		0px 1px 0px rgba(0,0,0,0.9);
+}
+.btn-orange:hover{
+	color:#fff
+}
+
+.input-cstm-xxlarge{
+	width:365px;
+}
+.container-narrow {
+  margin: 0 auto;
+  max-width: 950px;
+}
+.your-details{
+	width:auto;
+	margin-left:30px
+}
+.form-horizontal h4{
+	padding:15px 0;
+	font-family:Avenir, Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+.form-horizontal .control-label{
+	width:140px;
+	font-family:Avenir, Arial, Helvetica, sans-serif; 
+	font-size:16px;
+}
+.form-horizontal .controls{
+	margin-left:150px
+}
+.form-horizontal .controls h4{
+	margin:0;
+	padding:5px 0
+}
+.form-horizontal .input-security-code{
+	width:33px;
+}
+.credit-cards{
+	margin-top:8px;
+}
+
+.select-calendar{
+	position:absolute;
+	left:50%;
+	margin-left:-250px;
+	padding:30px 0;
+}
+
+.enter-address .control-label{
+	font-size:18px;
+}
+.enter-address .controls{
+	margin-top:22px;
+	}
+
+.share-wrapper .or{
+	width:177px;
+	text-align:center;
+	font-size:30px;
+	line-height:120px
+}
+.share-wrapper h4{
+	margin-top:40px;
+	margin-left:20px;
+}
+
+.add-more-address{
+	background:url(../img/add-more-add.png) no-repeat 100% 2px;
+	padding-right:18px;
+	color:#60a1d4
+}
+
+.twitter{
+	width:94px;
+	height:78px;
+	display:block;
+	margin-top:15px;
+}
+.facebook{
+	width:88px;
+	height:88px;
+	display:block;
+	margin-left:28px;margin-top:15px;
+}
+.info-text{
+		font-family:Avenir, Arial, Helvetica, sans-serif; width:800px
+}
+.info-text h2{
+	font-size:28px
+}
+.info-text p{
+	font-size:18px;
+	line-height:28px;
+}
+.btn-orange-btn{
+	font-size:18px;
+}
+.reservation-holder{
+	position:relative; height:300px;
+	width:800px
+}
+.img-logo-indino{
+	margin-top:15px;left:50%; margin-left:-137px; position:absolute
+}
+.sub-heading{
+	font-size:16px; font-weight:400; line-height:50px; text-indent:20px
+}
+
+.manage-clndr{
+	border:1px solid #cccbcb;  
+	background:#fafafa;
+	-webkit-border-radius: 6px!important;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+		  overflow:hidden
+}
+
+.border-less td{
+	border-top:0!important
+}
+
+.manage-clndr .border-less .odd td{
+   border-top:1px solid #ebebeb!important;
+   background:#f8f8f8;
+}
+@media (max-width: 980px) {
+	.your-details{
+	width:auto;
+	margin-left:50px
+}
+    .form-horizontal .control-group > label {
+        float: none;
+        width: auto;
+        padding-top: 0;
+        text-align: left;
+    }
+    .form-horizontal .controls {
+        margin-left: 0;
+    }
+    .form-horizontal .control-list {
+        padding-top: 0;
+    }
+    .form-horizontal .form-actions {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+	
+}
